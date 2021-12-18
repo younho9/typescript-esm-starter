@@ -1,0 +1,50 @@
+{
+	"name": "@younho9/typescript-esm-starter",
+	"version": "0.0.0",
+	"private": true,
+	"description": "Personal TypeScript ES module starter template",
+	"keywords": [
+		"typescript",
+		"typescript-starter",
+		"ts",
+		"esmodule",
+		"esm",
+		"starter",
+		"starter-template"
+	],
+	"bugs": {
+		"url": "https://github.com/younho9/typescript-esm-starter/issues"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/younho9/typescript-esm-starter.git"
+	},
+	"license": "MIT",
+	"author": {
+		"name": "Younho Choo",
+		"email": "yo+github@younho9.com",
+		"url": "https://younho9.dev"
+	},
+	"sideEffects": false,
+	"type": "module",
+	"exports": "./index.js",
+	"types": "./index.d.ts",
+	"files": [
+		"index.js",
+		"index.d.ts"
+	],
+	"scripts": {
+		"test": "xo && ava && tsd"
+	},
+	"dependencies": {},
+	"devDependencies": {
+		"@younho9/tsconfig": "0.1.0",
+		"ava": "3.15.0",
+		"tsd": "0.19.0",
+		"typescript": "4.5.4",
+		"xo": "0.47.0"
+	},
+	"engines": {
+		"node": "^12.20.0 || ^14.13.1 || >=16.0.0"
+	}
+}
