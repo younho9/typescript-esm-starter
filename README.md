@@ -9,6 +9,7 @@
 ## Getting Started
 
 - Click the [Use this template](https://github.com/younho9/typescript-esm-starter/generate) button.
+- Using [Yeoman generator](https://github.com/younho9/generator-typescript-esm)
 
 ## Features
 
